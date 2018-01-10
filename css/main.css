@@ -25,7 +25,9 @@ html,body
 .landingReveal
 {
 	position: relative;
-	top:0%; bottom:0; left:38%;
+
+	top:0%; bottom:0; left:36%;
+	text-align: center;
 	width: 28%;
 	height:100%;
     border: solid black;
@@ -35,7 +37,7 @@ html,body
 .header
 {
 	text-align: center;
-	font-size:1.5vw;
+	font-size:1vw;
 	text-align: center;
 	color:black;
 	animation: Font-grow 1.5s;
@@ -53,10 +55,10 @@ html,body
 }
 
 /*The div styling for the first question*/
-#Q1
+.questions
 {
 	color:black;
-	font-size: 8vw;
+	font-size: 4vw;
 	font-style: oblique;
 	z-index: 1;
 }
@@ -72,12 +74,12 @@ html,body
 }
 
 /*The First question styling*/
-#A1
+.answers
 {
 	
 	color:black;
-	font-size: 2.3vw;
-	margin-top: 40vh;
+	font-size: 1.5vw;
+	margin-top: 35vh;
 	font-family: sans-serif;
 	line-height: 140%;
 	z-index: 1;
@@ -88,7 +90,7 @@ html,body
 {
 	position: relative;
 	width:100%;
-	height: 200vh;
+	height: 170vh;
 	margin: -40vh auto 0 auto;
 	z-index: 98;
 	background-size: cover;
@@ -97,11 +99,18 @@ html,body
 	z-index: 20;
 }
 
-.imageContainer
+#picContainer
 {
 	position: relative;
 	display: inline-block;
-	margin-top:20vh;
+	margin:0;
+	margin-top:16vh;
+}
+
+#sacredGeoContainer
+{
+	position: relative;
+	margin-top: -80vh;
 }
 
 /*The bone arch photo*/
@@ -128,20 +137,33 @@ html,body
 {
 	top:0px;
 	width:100%;
-	height:100%;
+	height:132vh;
 	margin: 0 auto 0 auto;
 	text-align: center;
 	z-index:98;
   	position: relative;
-	background-color: orange;
+	background: url(https://2017.slc.wordcamp.org/files/2017/07/cropped-salt-lake-city-485937-gradienty.jpg) no-repeat center center fixed;
+	background-size: cover;
 	text-align: center;
+}
+
+.backgroundFour
+{
+	position: relative;
+	width:100%;
+	height: 100vh;
+	margin: -40vh auto 0 auto;
+	z-index: 98;
+	background-size: cover;
+	text-align: center;
+	background-color: #8D1414;
 }
 /*Makes font grow for the header div*/
 @keyframes Font-grow
 {
 	0%{font-size: 0vw;}
 	50%{font-size: 0vw;}
-	100%{font-size: 1.5vw;}
+	100%{font-size: 1vw;}
 }
 
 @keyframes FirstReveal

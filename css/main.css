@@ -34,16 +34,24 @@ html,body
     animation: FirstReveal 1.5s;
 }
 
+@font-face {
+font-family: "Dense-Regular";
+src: url("fonts/Dense-Regular.otf");
+}
+
 .header
 {
 	text-align: center;
-	font-size:1vw;
+	font-size:1.5vw;
 	text-align: center;
 	color:black;
 	animation: Font-grow 1.5s;
-	font-family: sans-serif;
+	font-family: Dense-Regular, bold;
+	letter-spacing: 5px;
 
 }
+
+
 
 /*The container for my questions.*/
 .questionContainer
@@ -61,6 +69,9 @@ html,body
 	font-size: 4vw;
 	font-style: oblique;
 	z-index: 1;
+	font-family: Dense-Regular, bold;
+	letter-spacing: 5px;
+
 }
 /*The container for my answers*/
 .answerContainer
@@ -163,7 +174,7 @@ html,body
 {
 	0%{font-size: 0vw;}
 	50%{font-size: 0vw;}
-	100%{font-size: 1vw;}
+	100%{font-size: 1.5vw;}
 }
 
 @keyframes FirstReveal

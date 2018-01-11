@@ -115,7 +115,7 @@ src: url("fonts/Dense-Regular.otf");
 	position: relative;
 	display: inline-block;
 	margin:0;
-	margin-top:16vh;
+	margin-top:3vh;
 }
 
 #sacredGeoContainer
@@ -175,9 +175,9 @@ src: url("fonts/Dense-Regular.otf");
 	position: relative;
 	z-index: 98;
 	text-align: center;
-	width:1399px;
-	height: 1400px;
-	background:url(https://image.ibb.co/eHvcsR/Screenshot_20170703_011044.jpg);
+	width: 195.4vh;
+	height: 50vw;
+	background:url(https://image.ibb.co/kO94p6/Forrest_Boi.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
 /*Makes font grow for the header div*/

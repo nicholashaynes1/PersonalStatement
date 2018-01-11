@@ -169,6 +169,17 @@ src: url("fonts/Dense-Regular.otf");
 	text-align: center;
 	background-color: #8D1414;
 }
+
+.backgroundFive
+{
+	position: relative;
+	z-index: 98;
+	text-align: center;
+	width:1399px;
+	height: 1400px;
+	background:url(https://image.ibb.co/eHvcsR/Screenshot_20170703_011044.jpg);
+	background-size: cover;
+}
 /*Makes font grow for the header div*/
 @keyframes Font-grow
 {
